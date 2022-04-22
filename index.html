@@ -2,144 +2,163 @@
 <html lang="en">
 
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
-<link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css">
 
-<title>Hello, world!</title>
+  <title>Hello, world!</title>
 </head>
 
 <body>
 
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled">Disabled</a>
-              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
             </ul>
-            <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
-          </div>
-        </div>
-      </nav>
-
-      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0MwSeUvZ9drmAKUJrsAeKgn8vn82c9-xS4Q&usqp=CAU" height="500" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQESVz2B8eyI9rB0W9NjVzORdlpiu8quqzypA&usqp=CAU" height="500" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnQrEd_bHA2w63nHvx9wtbHqIsicNlcHzQ2A&usqp=CAU" height="500" class="d-block w-100" alt="...">
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
-
-<h1 class="text-center mt-5">Welcome to our online shop</h1>
-
-<div class="container">
-
-  <div class="row">
-
-    <div class="col-md-3">
-      <div class="card" style="width: 18rem;">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRf4tAayI6CzoAkVKLRsDzn5ILNcPSC9SJQMw&usqp=CAU" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">mommy and baby</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
       </div>
     </div>
-  
-    <div class="col-md-3">
+  </nav>
+
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://thumbs.dreamstime.com/z/apple-store-lyon-shopping-mall-lyon-france-february-apple-store-american-multinational-technology-company-brand-logo-its-146614925.jpg"
+          height="500" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="https://www.apple.com/newsroom/videos/iphone-12-availability/posters/2156181_Newsroom_NewYorkTimelapse_PR_02_571x321.jpg.large.jpg"
+          height="500" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="https://www.apple.com/newsroom/images/environments/stores/Apple_Changsha_OpensSaturday_09012021_big.jpg.slideshow-xlarge_2x.jpg"
+          height="500" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <h1 class="text-center mt-5">Welcome to our istore iphone </h1>
+
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col-md-3">
         <div class="card" style="width: 18rem;">
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoawzounXbW9fuVjeChdPrPwvT5rQgJx9zlA&usqp=CAU" class="card-img-top" alt="...">
+          <img src="data:image/jpeg;base64,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"
+            class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">A Son and his lil brother</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <h5 class="card-title">iphone-13plue </h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card" style="width: 18rem;">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa71pccClWVTOrfuto9t0KKAYENy2nokg75A&usqp=CAU"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">iphone 6p </h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
             <a href="#" class="btn btn-primary">Go somewhere</a>
           </div>
         </div>
       </div>
       <div class="col-md-3">
         <div class="card" style="width: 18rem;">
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpJzblxinH6oqTNN6LC0XdEQYwoQwX2U--8A&usqp=CAU" class="card-img-top" alt="...">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2Xm3nyeLp8TMb_txylM8x37zHI9QEHydyPw&usqp=CAU"
+            class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">A couple</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" cgilass="btn btn-primary">Go somewhere</a>
+            <h5 class="card-title">iphone-12-availability></h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
           </div>
         </div>
       </div>
       <div class="col-md-3">
         <div class="card" style="width: 18rem;">
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbWfjncNxFN9wtakm2Io1U0bGAxmzzfpNPjw&usqp=CAU" class="card-img-top" alt="...">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNkQppsxHUEWLzTzU_94ohAzR53bHrbxYVcg&usqp=CAU"
+            class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title"> mommy and daughter</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <h5 class="card-title"> iphone-12-availability</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
             <a href="#" class="btn btn-primary">Go somewhere</a>
           </div>
         </div>
-      
       </div>
+    </div><br><br>
+
+    >
+
   </div>
-  
-</div>
 
-
-
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous"></script>
+       
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
 
 </body>
 

@@ -1,3 +1,9 @@
 body{
     background-color: aqua;
 }
+#baby
+{
+    width: 84%;
+    height: 400px;
+    margin-left: 110px;
+}
